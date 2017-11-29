@@ -361,7 +361,7 @@ time. *If you don’t provide time.php extension, it displays apache’s
 default index page.*
 
 ....
-$ curl time-mycliproject-UserName.apps.osecloud.com
+$ curl time-mycliproject-UserName.<<DomainNameSuffix>>
 Wednesday 1st of July 2015 01:12:20 AM
 ....
 
