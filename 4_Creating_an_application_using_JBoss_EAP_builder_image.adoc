@@ -14,7 +14,7 @@ Applications.
 *Remember* to replace the username before running the command.
 
 ....
-$ oc new-project myjbossapp-UserName --display-name="My JBoss Applications" --description="A place for my JBoss EAP Applications"
+$ oc new-project myjbossapp-userXX --display-name="My JBoss Applications" --description="A place for my JBoss EAP Applications"
 ....
 
 *Step 2: Create an application that uses the JBoss EAP builder image*
