@@ -57,6 +57,13 @@ repository.
 
 image:images/nexus_repo.png[image]
 
+n *Build Configuration* add a new _Environment Variable_.
+
+....
+name: CONTAINER_HEAP_PERCENT
+value: 0.9
+....
+
 Click on *Create* and then on *Continue to overview*.
 
 *Step 3: Build*
@@ -303,7 +310,7 @@ Route should be already created.
 $ oc get routes
 
 NAME      HOST/PORT                                                      PATH      SERVICES   PORT       TERMINATION
-ks        ks-myjbossapp-Username.apps.osecloud.com                                 ks         8080-tcp   
+ks        ks-myjbossapp-userXX.apps.osecloud.com                                 ks         8080-tcp   
 ....
 
 If route does not show, we expose the service `ks` via the command
@@ -333,7 +340,7 @@ $ curl ks-myjbossapp-userXX.apps.osecloud.com
 </html>
 ....
 
-Go to https://ks-myjbossapp-Username.apps.osecloud.com via your browser.
+Go to https://ks-myjbossapp-userXX.apps.osecloud.com via your browser.
 Please replace your username with yours.
 
 image:images/ks-myjbossapp.png[image]
