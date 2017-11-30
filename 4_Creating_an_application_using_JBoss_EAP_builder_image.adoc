@@ -57,7 +57,7 @@ repository.
 
 image:images/nexus_repo.png[image]
 
-n *Build Configuration* add a new _Environment Variable_.
+On *Deployment Configuration* add a new _Environment Variable_.
 
 ....
 name: CONTAINER_HEAP_PERCENT
