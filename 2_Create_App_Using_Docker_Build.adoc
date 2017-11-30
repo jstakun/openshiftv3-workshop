@@ -14,7 +14,7 @@ it. Run the following command to make sure. *Remember* to substitute
 UserName with your username.
 
 ....
-$ oc project mycliproject-UserName
+$ oc project mycliproject-userXX
 ....
 
 *Step 2: Create an application that uses docker file*
@@ -346,7 +346,7 @@ And then we check the route exposed.
 $ oc get routes
 
 NAME      HOST/PORT                                                          PATH      SERVICES   PORT       TERMINATION
-time      time-mycliproject-UserName.apps.osecloud.com                       time       8080-tcp   
+time      time-mycliproject-userXX.apps.osecloud.com                       time       8080-tcp   
 ....
 
 *Note:* Unlike in the previous lab, this time we did not use `--hostname`
@@ -361,7 +361,7 @@ time. *If you don’t provide time.php extension, it displays apache’s
 default index page.*
 
 ....
-$ curl time-mycliproject-UserName.<<DomainNameSuffix>>
+$ curl time-mycliproject-userXX.<<DomainNameSuffix>>
 Wednesday 1st of July 2015 01:12:20 AM
 ....
 
