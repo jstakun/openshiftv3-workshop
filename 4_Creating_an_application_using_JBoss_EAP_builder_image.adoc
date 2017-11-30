@@ -37,6 +37,7 @@ Fill the fields with the following information:
 ....
 Name: ks
 Git Repository URL: https://github.com/RedHatWorkshops/kitchensink
+Branch: master
 ....
 
 Click on the blue link that says: *Show advanced routing, build, and
@@ -46,7 +47,7 @@ On *Build Configuration* add a new _Environment Variable_.
 
 ....
 name: MAVEN_MIRROR_URL
-value: <nexus_url>/repository/maven-public/
+value: <nexus_url>/content/groups/public/
 
 Ex:-   http://nexus-ci.cloudapps.chicago.openshift3roadshow.com/repository/maven-public/
 ....
