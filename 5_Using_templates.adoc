@@ -14,7 +14,7 @@ Based on the experience gained from the previous exercise, log into the
 OpenShift Web Console. You will see the list of Projects.
 
 Using the *New Project* button, create a new project. We will call it
-*consoleproject-UserName*. Replace by your username to make this project
+*consoleproject-userXX*. Replace by your username to make this project
 unique. Type in a *Display Name* and *Description* of your choice.
 
 Press the *Create* button to complete the project creation from the Web
@@ -85,19 +85,7 @@ Enter the following values for each parameters:
 
 ....
 * Name: pricelist
-* Git Repository URL: https://github.com/RedHatWorkshops/php-pricelist
-....
-
-Click onto the link `Show advanced routing, build, and deployment
-options`, go to Deployment Configuration section and enter the
-following environment variables:
-
-image:images/dbtest_deployment_env.png[image]
-
-In the next section add a label:
-
-....
-* app=pricelist
+* Git Repository URL: https://github.com/jstakun/php-pricelist
 ....
 
 Click *Create* to add this frontend application to talk to the database.

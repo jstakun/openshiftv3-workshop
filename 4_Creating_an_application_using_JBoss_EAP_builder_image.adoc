@@ -37,7 +37,7 @@ Fill the fields with the following information:
 ....
 Name: ks
 Git Repository URL: https://github.com/RedHatWorkshops/kitchensink
-Branch: master
+Git Reference: master
 ....
 
 Click on the blue link that says: *Show advanced routing, build, and
@@ -56,13 +56,6 @@ Ex:-   http://nexus3.devtools:8081/repository/maven-public/
 repository.
 
 image:images/nexus_repo.png[image]
-
-On *Deployment Configuration* add a new _Environment Variable_.
-
-....
-name: CONTAINER_HEAP_PERCENT
-value: 0.9
-....
 
 Click on *Create* and then on *Continue to overview*.
 
