@@ -142,7 +142,7 @@ Click *Add to Application* button
 
 Select pricelist from *Add this secret to application* list
 
-Leave *Add secret as:* Environment variables
+Select *Add secret as:* Environment variables
 
 Click *Save* button
 
