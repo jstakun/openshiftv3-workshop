@@ -20,7 +20,7 @@ want to download the WAR file on your workstation.
 
 [source,sh]
 ----
-oc new-project binarydeploy-UserName
+oc new-project binarydeploy-userXX
 mkdir binarytest && cd binarytest
 mkdir deployments
 ----

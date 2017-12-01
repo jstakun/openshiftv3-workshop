@@ -14,7 +14,7 @@ previous labs. Make sure you are switched to that project by using the
 `oc project` command and *remember* to substitute UserName.
 
 ....
-$ oc project mycliproject-UserName
+$ oc project mycliproject-userXX
 ....
 
 *Step 2: View the deployment config*
