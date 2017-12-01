@@ -134,17 +134,17 @@ Go to Project *Overview* and click *Create Binding*
 
 Go to *Applications -> Provisioned Services*
 
-Click on Provisioned Service Name link 
+Click on Provisioned Service *Name* link 
 
-Click View Secret link
+Click *View Secret* link
 
-Click Add to Application Button 
+Click *Add to Application* button 
 
-Select pricelist from "Add this secret to application"
+Select pricelist from *Add this secret to application* list
 
-Leave Add secret as: Environment variables
+Leave *Add secret as:* Environment variables
 
-Click Save
+Click *Save* button
 
 Wait for pricelist pod redeployment (should start automatically)
 
