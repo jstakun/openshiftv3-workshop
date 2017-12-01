@@ -68,14 +68,14 @@ image:images/mysql_pod_on_proj_overview.png[image]
 
 In this step we will add a PHP frontend application that talks to
 recently created database. The code is available on github at
-https://github.com/RedHatWorkshops/php-pricelist
+https://github.com/jstakun/php-pricelist
 
 Browse through the code in this repository. If you take a look at the
 link:https://raw.githubusercontent.com/RedHatWorkshops/php-pricelist/master/config/database.php[database configuration] file (`config/database.php`) you will see that
 it reads the values from environment varables.
 
 To add a frontend again click on *Add to Project -> Browse Catalog* to spin up a frontend
-application in the same *consoleproject-UserName*. It takes you to
+application in the same *consoleproject-userXY*. It takes you to
 select image or template page and choose the *PHP* template under PHP
 apps.
 
@@ -129,6 +129,8 @@ Once the build completes, OpenShift initiates a deploy process. Once the
 deployment is complete, the frontend pod starts running. You will find
 the running pod when you navigate to *Applications->Pods* on the Web
 console.
+
+TODO create binding
 
 Now use `curl` to run the database `bootstrap` script
 ....
