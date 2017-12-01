@@ -132,6 +132,17 @@ console.
 
 TODO create binding
 
+Go to Project Overview and click Create Binding
+
+Go to Applications -> Provisioned Services
+Click on Provisioned Service Name 
+Click View Secret
+Click Add to Application 
+Select pricelist from "Add this secret to application"
+Leave Add secret as: Environment variables
+Click Save
+Wait for pricelist pod redeployment (should start automatically)
+
 Now use `curl` to run the database `bootstrap` script
 ....
 $ oc project
