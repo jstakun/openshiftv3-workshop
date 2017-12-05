@@ -104,7 +104,7 @@ Here you need to enter the following
 ----
 * Storage Class: <provided by your instructor>
 * Name: myclaim
-* Access Mode: Shared Access (RWX)
+* Access Mode: Single User (RWO)
 * Size: 1 GiB
 ----
 
