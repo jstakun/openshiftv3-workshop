@@ -34,7 +34,7 @@ The following command will allow the QA project to be able to pull the
 docker images from the Development project.
 
 ....
-$ oc policy add-role-to-group system:image-puller system:serviceaccounts:testing-userXX -n development-UserName
+$ oc policy add-role-to-group system:image-puller system:serviceaccounts:testing-userXX -n development-userXX
 ....
 
 *Step 3: Create an application in the development project*
