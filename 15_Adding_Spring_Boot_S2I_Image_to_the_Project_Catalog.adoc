@@ -13,8 +13,8 @@ from your screen.
 *Step 1:* Clean up the project that you created in the last lab.
 
 Ensure you are in the right project by running `oc project` command. If
-not, change your project by running `oc project spring-UserName`,
-*replacing* the UserName with your own userid.
+not, change your project by running `oc project spring-userXX`,
+*replacing* the userXX with your own userid.
 
 Clean up the contents of this project:
 
