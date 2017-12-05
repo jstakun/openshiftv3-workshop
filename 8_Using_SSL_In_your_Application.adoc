@@ -8,12 +8,12 @@ with the OpenShift Wildcard certificate.
 *Step 1: Switch to an existing project*
 
 For this exercise, we will use an application that we created before. We
-will be using the *myjbossapp-UserName* that you created in the previous
+will be using the *myjbossapp-userXX* that you created in the previous
 labs. Make sure you are switched to that project by using the *oc
 project* command. *Remember* to substitute UserName.
 
 ....
-$ oc project myjbossapp-UserName
+$ oc project myjbossapp-userXX
 ....
 
 *Step 2: View the routing config*

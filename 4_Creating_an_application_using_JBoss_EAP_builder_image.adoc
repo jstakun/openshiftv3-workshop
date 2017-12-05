@@ -342,4 +342,14 @@ Congratulations! In this exercise you have learned how to create, build
 and deploy a JBoss EAP application using OpenShift’s JBoss EAP Builder
 Image.
 
+[[extra-credits]]
+Extra Credits
+^^^^^^^^^^^^^
+
+Check in EAP pod log what is value of -Xms -Xmx jvm parameters
+
+Add to EAP deployment descriptor environment variable Name: CONTAINER_HEAP_PERCENT Value: 0.9
+
+Wait for EAP pod restart and check again value of -Xms -Xmx jvm parameters
+
 link:0_toc.adoc[Table Of Contents]

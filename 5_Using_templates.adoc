@@ -40,15 +40,7 @@ parameters and edit the values to use the following values:
 
 ....
 Database Service Name: mysql
-MySQL Connection Username: pricelist
-MySQL Connection Password: pricelist
 MySQL Database Name: pricelist
-....
-
-In the next section you can add the label:
-
-....
-app=pricelist
 ....
 
 Click the *Create* button.

@@ -36,7 +36,7 @@ Part I
 *Remember* to substitute the username
 
 ....
-$ oc new-project bluegreen-UserName --display-name="Blue Green Project" --description="Blue Green Project"
+$ oc new-project bluegreen-userXX --display-name="Blue Green Project" --description="Blue Green Project"
 ....
 
 *Step 2: List existing image builder or image streams*
