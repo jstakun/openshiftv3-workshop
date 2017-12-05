@@ -22,7 +22,7 @@ builder image was created using this Dockerfile.
 link:[https://github.com/codecentric/springboot-maven3-centos/blob/master/Dockerfile]
 
 ....
-$ oc new-app veermuchandi/spring-mvn-base~https://github.com/RedHatWorkshops/spring-sample-app --name=bootapp
+$ oc new-app redhat-openjdk18-openshift:1.2~https://github.com/RedHatWorkshops/spring-sample-app --name=bootapp
 --> Found Docker image c3ddd9e (7 days old) from Docker Hub for "veermuchandi/spring-mvn-base"
 
     Spring Boot Maven 3
@@ -31,7 +31,7 @@ $ oc new-app veermuchandi/spring-mvn-base~https://github.com/RedHatWorkshops/spr
 
     Tags: builder, java, java8, maven, maven3, springboot
 
-    * An image stream will be created as "spring-mvn-base:latest" that will track the source image
+    * An image stream will be created as "redhat-openjdk18-openshift:1.2" that will track the source image
     * A source build using source code from https://github.com/RedHatWorkshops/spring-sample-app will be created
       * The resulting image will be pushed to image stream "bootapp:latest"
       * Every time "spring-mvn-base:latest" changes a new build will be triggered
