@@ -18,15 +18,15 @@ In Part I of the Lab we will:
 
 *Step 1: Create new project*
 
-*Remember* to substitute the UserName
+*Remember* to substitute the userXX
 
 ....
-$ oc new-project scm-web-hooks-UserName --display-name="Test WebHooks"
+$ oc new-project scm-web-hooks-userXX --display-name="Test WebHooks"
 ....
 
 *Step 2: Create new application*
 
-* We will use the forked repository from the previous lab.
+* We will use the forked repository from the previous lab https://github.com/RedHatWorkshops/bluegreen
 
 *Remember* to substitute the UserName.
 
