@@ -142,8 +142,8 @@ Wait for pricelist pod redeployment (should start automatically)
 
 Now use `curl` to run the database `bootstrap` script
 ....
-$ oc project
-Using project "consoleproject-Username" on server "https://ocp.example.com:8443".
+$ oc project consoleproject-userXX
+Using project "consoleproject-userXX" on server "https://ocp.example.com:8443".
 
 $ curl -k http://$(oc get route/pricelist -o jsonpath='{.spec.host}')/create_database.php
 Array
