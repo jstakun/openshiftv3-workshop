@@ -18,17 +18,17 @@ In Part I of the Lab we will:
 
 *Step 1: Create new project*
 
-*Remember* to substitute the userXX
+*Remember* to substitute the userXY
 
 ....
-$ oc new-project scm-web-hooks-userXX --display-name="Test WebHooks"
+$ oc new-project scm-web-hooks-userXY --display-name="Test WebHooks"
 ....
 
 *Step 2: Create new application*
 
 * We will use the forked repository from the previous lab https://github.com/RedHatWorkshops/bluegreen
 
-*Remember* to substitute the UserName.
+*Remember* to substitute the userXY.
 
 ....
 $ oc new-app --image-stream=php --code=https://github.com/your_github_username/bluegreen.git --name=scm-web-hooks
@@ -105,7 +105,7 @@ NAME            CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
 scm-web-hooks   172.30.71.191   <none>        8080/TCP   4m
 ....
 
-*Remember* to substitute the UserName.
+*Remember* to substitute the userXY.
 
 ....
 $ oc expose service scm-web-hooks --hostname=scm-web-hooks.UserName.<<RouteDomainSuffix>>
