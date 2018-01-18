@@ -120,8 +120,8 @@ your setup an change it.
 ....
 $ oc expose service welcome --name=welcome --hostname=welcome.userXX.<<DomainNameSuffix>>
 
-NAME      HOST/PORT                     PATH      SERVICE   LABELS
-welcome   welcome.userXX.apps.osecloud.com             welcome   
+NAME      HOST/PORT                              PATH      SERVICE   LABELS
+welcome   welcome.userXX.<<DomainNameSuffix>>    welcome   
 ....
 
 *Step 4: Try your application*

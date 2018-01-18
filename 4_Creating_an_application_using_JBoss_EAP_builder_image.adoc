@@ -26,36 +26,21 @@ assemble our application.
 
 Open the browser and select your new project *My JBoss Applications*.
 
-Click into *Add to Project* button.
+Click into *Browse Catalog* button.
 
-In the search text box type `jboss-eap64-openshift` and select the
-latest version tag for this builder image (at the moment of creation
-this lab it is `jboss-eap64-openshift:1.5`).
+In the search text box type `eap` and select the `JBoss EAP 6.4 (no https)`.
 
-Fill the fields with the following information:
+Click *Next* button and fill the fields with the following information:
 
 ....
+Add to project: your-project-name
 Name: ks
 Git Repository URL: https://github.com/RedHatWorkshops/kitchensink
 Git Reference: master
+MAVEN_MIRROR_URL: http://nexus3.devtools.svc:8081/repository/maven-public/
 ....
 
-Click on the blue link that says: *Show advanced routing, build, and
-deployment options*.
-
-On *Build Configuration* add a new _Environment Variable_.
-
-....
-name: MAVEN_MIRROR_URL
-value: http://nexus3.devtools.svc:8081/repository/maven-public/
-....
-
-*REMEMBER:* Check with your instructor the proper URL for the Nexus
-repository.
-
-image:images/nexus_repo.png[image]
-
-Click on *Create* and then on *Continue to overview*.
+Click on *Next*, *Create* and then on *Continue to overview*.
 
 *Step 3: Build*
 
