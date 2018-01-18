@@ -286,7 +286,7 @@ Route should be already created.
 $ oc get routes
 
 NAME      HOST/PORT                                                      PATH      SERVICES   PORT       TERMINATION
-ks        ks-myjbossapp-userXX.apps.osecloud.com                                 ks         8080-tcp   
+ks        ks-myjbossapp-userXX.<<DefaultRouteSuffix>>                                 ks     8080-tcp   
 ....
 
 If route does not show, we expose the service `ks` via the command
@@ -306,7 +306,7 @@ Now access the application by using the route you got in the previous
 step. You can use either curl or your browser.
 
 ....
-$ curl ks-myjbossapp-userXX.apps.osecloud.com
+$ curl ks-myjbossapp-userXX.<<DefaultRouteSuffix>>
 
  <!-- Plain HTML page that kicks us into the app -->
 <html>
