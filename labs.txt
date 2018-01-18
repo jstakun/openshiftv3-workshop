@@ -1,0 +1,7 @@
+OCP MASTER & API: https://master.34.212.161.224.nip.io:8443/
+
+ROUTE DOMAIN SUFFIX: cloudapps.34.212.161.224.nip.io
+
+KIBANA: https://kibana.cloudapps.34.212.161.224.nip.io
+
+REGISTRY CONSOLE: https://registry-console-default.cloudapps.34.212.161.224.nip.io/
