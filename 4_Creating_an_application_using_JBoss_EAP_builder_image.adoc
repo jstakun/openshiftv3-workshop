@@ -40,7 +40,7 @@ Git Reference: master
 MAVEN_MIRROR_URL: http://nexus3.devtools.svc:8081/repository/maven-public/
 ....
 
-Click on *Next*, *Create* and then on *Continue to overview*.
+Click on *Next* and *Create* buttons and then *Continue to overview* link.
 
 *Step 3: Build*
 
