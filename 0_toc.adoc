@@ -26,8 +26,3 @@ Lab Exercises Table of Contents
 * Lab 17. link:17_Dynamic_Configuration_Updates_using_ConfigMap.adoc[Dynamic Configuration updates using ConfigMap]
 * Lab 18. link:18_Changing_code_on_the_fly.adoc[Changing code on the fly]
 * Lab 19. link:19_Creating_a_Pipeline.adoc[Creating a CI/CD Pipeline]
-
-OCP MASTER & API: https://master.34.212.161.224.nip.io:8443/
-ROUTE DOMAIN SUFFIX: cloudapps.34.212.161.224.nip.io
-KIBANA: https://kibana.cloudapps.34.212.161.224.nip.io
-REGISTRY CONSOLE: https://registry-console-default.cloudapps.34.212.161.224.nip.io/
