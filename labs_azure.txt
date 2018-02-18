@@ -1,0 +1,8 @@
+OCP MASTER & API: https://master.westus.cloudapp.azure.com
+
+ROUTE DOMAIN SUFFIX: apps.104.42.13.21.nip.io
+
+KIBANA: https://kibana.apps.104.42.13.21.nip.io
+
+REGISTRY CONSOLE: https://registry-console-default.apps.104.42.13.21.nip.io/
+
