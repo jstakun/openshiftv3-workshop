@@ -76,4 +76,14 @@ Test your application by using the hostname assigned in the route.
 Congratulations!! You are now running a SpringBoot application on
 OpenShift.
 
+[[extra-credits]]
+Extra Credits
+^^^^^^^^^^^^^
+
+In SpringBoot pod log check what is value of -Xms -Xmx jvm parameters
+
+Add to SpringBoot deployment config environment variable Name: JAVA_MAX_MEM_RATIO Value: 90
+
+Wait for SpringBoot pod restart and check again value of -Xms -Xmx jvm parameters
+
 link:0_toc.adoc[Table Of Contents]
