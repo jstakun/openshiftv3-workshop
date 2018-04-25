@@ -1,0 +1,7 @@
+OCP MASTER & API: https://ec2-34-209-49-65.us-west-2.compute.amazonaws.com/
+
+ROUTE DOMAIN SUFFIX: apps.34.212.205.27.nip.io 
+
+KIBANA: https://kibana.apps.34.212.205.27.nip.io 
+
+REGISTRY CONSOLE: https://registry-console-default.apps.34.212.205.27.nip.io
