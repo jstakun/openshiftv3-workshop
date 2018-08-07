@@ -37,7 +37,7 @@ Add to project: your-project-name
 Name: ks
 Git Repository URL: https://github.com/RedHatWorkshops/kitchensink
 Git Reference: master
-MAVEN_MIRROR_URL: http://nexus3.devtools.svc:8081/repository/maven-public/
+MAVEN_MIRROR_URL: http://nexus.devtools.svc:8081/repository/maven-all-public/
 ....
 
 Click on *Next* and *Create* buttons and then *Continue to overview* link.
