@@ -1,14 +1,14 @@
 
 LABS: https://goo.gl/igqrdJ
 
-OCP MASTER & API: https://ec2-34-209-49-65.us-west-2.compute.amazonaws.com/
+OCP MASTER & API: https://master.107.21.247.47.nip.io/
 
-ROUTE DOMAIN SUFFIX: apps.34.212.205.27.nip.io 
+ROUTE DOMAIN SUFFIX: apps.18.213.208.233.nip.io 
 
 ----------------------------------------------------------------------------
 
-KIBANA: https://kibana.apps.34.212.205.27.nip.io 
+KIBANA: https://kibana.<<ROUTE DOMAIN SUFFIX>>
 
-REGISTRY CONSOLE: https://registry-console-default.apps.34.212.205.27.nip.io
+REGISTRY CONSOLE: https://registry-console-default.<<ROUTE DOMAIN SUFFIX>>
 
 
