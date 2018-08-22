@@ -22,7 +22,7 @@ builder image was created using this Dockerfile.
 link:[https://github.com/codecentric/springboot-maven3-centos/blob/master/Dockerfile]
 
 ....
-$ oc new-app redhat-openjdk18-openshift:1.2~https://github.com/RedHatWorkshops/spring-sample-app --name=bootapp
+$ oc new-app redhat-openjdk18-openshift:1.2~https://github.com/RedHatWorkshops/spring-sample-app --name=bootapp --build-env=MAVEN_MIRROR_URL=http://nexus.devtools.svc:8081/repository/maven-all-public/
 --> Found Docker image c3ddd9e (7 days old) from Docker Hub for "veermuchandi/spring-mvn-base"
 
     Spring Boot Maven 3
