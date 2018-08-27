@@ -13,7 +13,7 @@ from your screen.
 *Step 1:* Create new project. 
 
 ....
-spring-sc-userXY
+oc new-project spring-sc-userXY
 ....
 
 Ensure you are in the right project by running `oc project` command. If
