@@ -10,19 +10,15 @@ the catalog. In this lab, we will learn how to add the Spring Boot image
 to the project catalog so that you can deploy the application directly
 from your screen.
 
-*Step 1:* Clean up the project that you created in the last lab.
+*Step 1:* Create new project. 
+
+....
+spring-sc-userXY
+....
 
 Ensure you are in the right project by running `oc project` command. If
-not, change your project by running `oc project spring-userXX`,
-*replacing* the userXX with your own userid.
-
-Clean up the contents of this project:
-
-....
-oc delete all --all
-....
-
-Verify that all the contents are gone by running `oc get all`
+not, change your project by running `oc project spring-sc-userXY`,
+*replacing* the userXY with your own userid.
 
 *Step 2:* Add the Spring Boot image stream.
 
