@@ -1,16 +1,16 @@
-[[adding-a-backend-database-to-the-springboot-application]
+[[adding-a-backend-database-to-the-springboot-application]]
 Adding a backend database to the SpringBoot application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this exercise we will add a backend database to the previous deployed
 SpringBoot application.
 
-If you already created the SpringBoot application in the previous lab
+If you already created the SpringBoot application in the previous lab 14 
 link:14.%20Deploy%20a%20Spring%20Boot%20Application.md[deploy a spring
 boot application], just test one more thing. Try your application url
 with `/dbtest`
-(http://bootapp-spring-userXX.apps.devday.ocpcloud.com/dbtest
-*substitute* userXX) extension and it should list you some data from
+(http://bootapp-spring-userXY.<<DomainNameSuffix>>/dbtest
+*substitute* userXY) extension and it should list you some data from
 the HSQLDB configured within the same app.
 
 Let’s take a moment to understand how this application is connecting to
@@ -130,7 +130,7 @@ Try a couple of more commands
 ....
 $ oc describe configmap app-props
 Name:       app-props
-Namespace:  spring-userXX
+Namespace:  spring-userXY
 Labels:     <none>
 Annotations:    <none>
 

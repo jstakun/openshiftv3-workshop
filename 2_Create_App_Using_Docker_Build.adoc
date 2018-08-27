@@ -14,7 +14,7 @@ it. Run the following command to make sure. *Remember* to substitute
 UserName with your username.
 
 ....
-$ oc project mycliproject-userXX
+$ oc project mycliproject-userXY
 ....
 
 *Step 2: Create an application that uses docker file*
@@ -361,7 +361,7 @@ time. *If you don’t provide time.php extension, it displays apache’s
 default index page.*
 
 ....
-$ curl time-mycliproject-userXX.<<DomainNameSuffix>>
+$ curl time-mycliproject-userXY.<<DomainNameSuffix>>
 Wednesday 1st of July 2015 01:12:20 AM
 ....
 
