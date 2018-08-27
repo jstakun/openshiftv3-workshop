@@ -9,7 +9,7 @@ If you already created the SpringBoot application in the previous lab 14
 link:14.%20Deploy%20a%20Spring%20Boot%20Application.md[deploy a spring
 boot application], just test one more thing. Try your application url
 with `/dbtest`
-(http://bootapp-spring-userXY.<<DomainNameSuffix>>/dbtest
+(http://bootapp-spring-userXY.apps.route.domain.suffix/dbtest
 *substitute* userXY) extension and it should list you some data from
 the HSQLDB configured within the same app.
 
