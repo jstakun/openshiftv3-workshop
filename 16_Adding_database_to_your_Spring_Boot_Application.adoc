@@ -47,7 +47,7 @@ MySQL database running as a separate pod.
 
 Based on what you learnt in the previous labs, you know what to do!!
 
-Make sure you are in the `spring-userXX` project where your springboot
+Make sure you are in the `spring-userXY` project where your springboot
 application is running. Click on `Add to project` on your webconsole,
 select `MySQL Ephemeral` from the catalog and deploy it. When you are
 deploying this database you will have to choose the following values:
@@ -70,7 +70,7 @@ you noted in the last step i.e.
 
 ....
 spring.datasource.platform=mysql
-spring.datasource.url= jdbc:mysql://mysql.spring-userXX:3306/sampledb?useSSL=false
+spring.datasource.url= jdbc:mysql://mysql.spring-userXY:3306/sampledb?useSSL=false
 spring.datasource.username=user
 spring.datasource.password=password
 ....
