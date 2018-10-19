@@ -28,15 +28,15 @@ Open the browser and select your new project *My JBoss Applications*.
 
 Click into *Browse Catalog* button.
 
-In the search text box type `eap` and select the `JBoss EAP 6.4 (no https)`.
+In the search text box type `eap cd` and select the `JBoss EAP CD (no https)`. EAP CD is latest EAP 7 version updated more frequently than regular EAP 7.x versions.
 
 Click *Next* button and fill the fields with the following information:
 
 ....
 Add to project: your-project-name
 Name: ks
-Git Repository URL: https://github.com/RedHatWorkshops/kitchensink
-Git Reference: master
+Git Repository URL: https://github.com/jboss-developer/jboss-eap-quickstarts.git
+Git Reference: openshift 
 MAVEN_MIRROR_URL: http://nexus.devtools.svc:8081/repository/maven-all-public/
 ....
 
@@ -329,9 +329,9 @@ Image.
 Extra Credits
 ^^^^^^^^^^^^^
 
-In EAP pod log check what is value of -Xms -Xmx jvm parameters
+Go to your EAP pod log at check what is value of -Xms -Xmx jvm parameters in the very beginning of log
 
-Add to EAP deployment config environment variable Name: CONTAINER_HEAP_PERCENT Value: 0.9
+Add to your EAP deployment config environment variable Name: CONTAINER_HEAP_PERCENT Value: 0.9
 
 Wait for EAP pod restart and check again value of -Xms -Xmx jvm parameters
 
