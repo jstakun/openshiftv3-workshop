@@ -118,10 +118,10 @@ can access it from the browser.
 your setup an change it.
 
 ....
-$ oc expose service welcome --name=welcome --hostname=welcome.userXX.<<DomainNameSuffix>>
+$ oc expose service welcome --name=welcome --hostname=welcome.userXX.<<RouteDomainSuffix>>
 
 NAME      HOST/PORT                              PATH      SERVICE   LABELS
-welcome   welcome.userXX.<<DomainNameSuffix>>    welcome   
+welcome   welcome.userXX.<<RouteDomainSuffix>>    welcome   
 ....
 
 *Step 4: Try your application*
@@ -130,7 +130,7 @@ Access the application: Now access the application using curl (looking
 for 200 status code) or from the browser and see the result
 
 ....
-$ curl -Is http://welcome.userXX.<<DomainNameSuffix>>
+$ curl -Is http://welcome.userXX.<<RouteDomainSuffix>>
 ....
 
 Voila!! you created your first application using an existing docker

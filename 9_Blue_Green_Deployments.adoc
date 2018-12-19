@@ -124,7 +124,7 @@ $ oc get service
 *Remember* to substitute the username. Expose the service:
 
 ....
-$ oc expose service blue --hostname=bluegreen.userXX.<<DomainNameSuffix>> --name=bluegreen
+$ oc expose service blue --hostname=bluegreen.userXX.<<RouteDomainSuffix>> --name=bluegreen
 ....
 
 *Step 8: Test the application*

@@ -361,7 +361,7 @@ time. *If you don’t provide time.php extension, it displays apache’s
 default index page.*
 
 ....
-$ curl time-mycliproject-userXY.<<DomainNameSuffix>>
+$ curl time-mycliproject-userXY.<<RouteDomainSuffix>>
 Wednesday 1st of July 2015 01:12:20 AM
 ....
 
