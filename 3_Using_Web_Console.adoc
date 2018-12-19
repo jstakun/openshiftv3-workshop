@@ -56,15 +56,6 @@ console.
 
 image:images/terminal_view.png[image]
 
-If you click onto the *Metrics* tab under Pod and get an error viewing
-metrics on the browser, please do the following:
-
-1.  Open https://hawkular-metrics.ROUTE.DOMAIN.SUFFIX from a new tab on the same
-broswer
-2.  Click ``Advanced'' link
-3.  Click ``Proceed to hawkular.<> (unsafe)''
-4.  Refresh the browser where you login at OpenShift console.
-
 Click *Builds* on left menu and select *Builds*. Select the build name
 *time* and then click on *Configuration* tab. Note there are webhook
 URLs. We will use them in a later lab exercise. You can start a build
