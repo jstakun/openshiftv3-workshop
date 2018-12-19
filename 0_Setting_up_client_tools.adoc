@@ -41,7 +41,7 @@ paths listed in the `PATH` environment variable.
 +
 2.1. Use oc.exe to open an OpenShift shell
 +
-2.2. Go to https://git-scm.com to download git bash for Windows (during
+2.2. Go to https://git-scm.com/downloads to download git bash for Windows (during
 installation you need to specify in the selection to integrate with the
 command prompt)
 
