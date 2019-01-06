@@ -11,7 +11,7 @@ application docker image for you.
 If you want to, you can create a new project based on what you have
 learned in the previous lab. Since we already have a project we will use
 it. Run the following command to make sure. *Remember* to substitute
-UserName with your username.
+userXY with your username.
 
 ....
 $ oc project mycliproject-userXY

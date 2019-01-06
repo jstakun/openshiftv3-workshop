@@ -42,7 +42,7 @@ Run 'oc new-app' to create an application.
 
 Next we will create an application inside the above project using an
 existing docker image. We will be using a very simple docker image on
-dockerhub that just says ``Welcome to OpenShift V3''. Let us just use
+Docker Hub that just says ''Welcome to OpenShift V3''. Let us just use
 that for this exercise.
 
 First create a new application using the docker image using the

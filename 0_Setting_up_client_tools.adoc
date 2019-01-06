@@ -49,7 +49,7 @@ command prompt)
 *CLI basic configuration*
 
 The easiest way to initially setup the OpenShift CLI is to use the
-`oc login` command. It’ll interactively ask you a server URL, username
+`oc login` command. It will interactively ask you a server URL, username
 and password. The information is automatically saved in a CLI
 configuration file that is then used for subsequent commands.
 
