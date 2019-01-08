@@ -21,7 +21,7 @@ Lab Exercises Table of Contents
 * Lab 12. link:12_Code_Promotion_Across_Environments.adoc[Code Promotion Across Environments]
 * Lab 13. link:13_Using_Persistent_Storage.adoc[Using Persistent Storage]
 * Lab 14. link:14_Deploy_a_Spring_Boot_Application.adoc[Deploy Spring Boot Application]
-* Lab 15. link:15_Adding_Spring_Boot_S2I_Image_to_the_Project_Catalog.adoc[Adding Spring Boot to Project Catalog]
+~~* Lab 15. link:15_Adding_Spring_Boot_S2I_Image_to_the_Project_Catalog.adoc[Adding Spring Boot to Project Catalog]~~
 * Lab 16. link:16_Adding_database_to_your_Spring_Boot_Application.adoc[Adding Database to your SpringBoot App]
 * Lab 17. link:17_Dynamic_Configuration_Updates_using_ConfigMap.adoc[Dynamic Configuration updates using ConfigMap]
 * Lab 18. link:18_Changing_code_on_the_fly.adoc[Changing code on the fly]

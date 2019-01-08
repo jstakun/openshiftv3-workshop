@@ -13,7 +13,7 @@ deployments on OpenShift.
 * You will be using the projects you created in the "Promiting Applications" lab.
 
 *Step 1:* Create a new project Create a new project with name
-`pipeline-UserName`. _Substitute UserName with your own user name._
+`pipeline-userXY`. _Substitute userXY with your own user name._
 
 *Step 2:* Deploy your CI/CD tool (Jenkins)
 
@@ -63,7 +63,7 @@ pipeline that runs. We will discuss that in the next step.
 This will spin up a Jenkins pod. Give it a few minutes as it takes time
 to download and deploy jenkins. You will also see the URL assigned to
 your Jenkins. It would be something like
-`https://jenkins-pipeline-UserName.apps.devday.osecloud.com`
+`https://jenkins-pipeline-userXY.apps.devday.osecloud.com`
 
 If you click on that URL, you will be taken to Jenkins Console. *Note:*
 The browser may complain that the URL is insecure. Click on advanced and
@@ -94,15 +94,15 @@ you to the editing page. Replace the current content with the following.
 ....
 node('maven') {
 stage 'buildInDevelopment'
-openshiftBuild(namespace: 'development-UserName', buildConfig: 'welcome-php', showBuildLogs: 'true')
+openshiftBuild(namespace: 'development-userXY', buildConfig: 'welcome-php', showBuildLogs: 'true')
 stage 'deployInDevelopment'
-openshiftDeploy(namespace: 'development-UserName', deploymentConfig: 'welcome-php')
-openshiftScale(namespace: 'development-UserName', deploymentConfig: 'welcome-php',replicaCount: '2')
+openshiftDeploy(namespace: 'development-userXY', deploymentConfig: 'welcome-php')
+openshiftScale(namespace: 'development-userXY', deploymentConfig: 'welcome-php',replicaCount: '2')
 stage 'deployInTesting'
 input 'Promote Dev Image to Testing?'
-openshiftTag(namespace: 'development-UserName', sourceStream: 'welcome-php',  sourceTag: 'latest', destinationStream: 'welcome-php', destinationTag: 'promote-qa')
-openshiftDeploy(namespace: 'testing-UserName', deploymentConfig: 'welcome-php', )
-openshiftScale(namespace: 'testing-UserName', deploymentConfig: 'welcome-php',replicaCount: '3')
+openshiftTag(namespace: 'development-userXY', sourceStream: 'welcome-php',  sourceTag: 'latest', destinationStream: 'welcome-php', destinationTag: 'promote-qa')
+openshiftDeploy(namespace: 'testing-userXY', deploymentConfig: 'welcome-php', )
+openshiftScale(namespace: 'testing-userXY', deploymentConfig: 'welcome-php',replicaCount: '3')
 }
 ....
 
@@ -116,19 +116,19 @@ Review these `Jenkinsfile` changes on this page.
 *Step 4:* Permissions and Configuration Changes
 
 The Jenkins user in the jenkins project you created needs
-to have access to the projects `development-UserName` and
-`testing-UserName`. Just for testing; we will give jenkins
+to have access to the projects `development-userXY` and
+`testing-userXY`. Just for testing; we will give jenkins
 full access to these projects.
 
 ....
-oc project jenkins-UserName
-oc adm policy add-role-to-user admin system:serviceaccount:jenkins-UserName:jenkins -n testing-UserName
-oc adm policy add-role-to-user admin system:serviceaccount:jenkins-UserName:jenkins -n development-UserName
+oc project jenkins-userXY
+oc adm policy add-role-to-user admin system:serviceaccount:jenkins-userXY:jenkins -n testing-userXY
+oc adm policy add-role-to-user admin system:serviceaccount:jenkins-userXY:jenkins -n development-userXY
 ....
 
 For reference the syntax is: `system:serviceaccount:PROJECTNAME:SERVICEACCOUNT`
 
-Next, we will edit the `development-UserName` project to disable
+Next, we will edit the `development-userXY` project to disable
 the deployment triggers.
 
 Using the left-side navigation; go to `Application` -> `Deployments`. On the overview
@@ -146,7 +146,7 @@ Click "Save" and in the end, the config should look like this.
 image:images/disable-triggers1.png[image]
 
 
-Do the same steps for the `testing-UserName` project. It should 
+Do the same steps for the `testing-userXY` project. It should 
 look similar.
 image:images/disable-triggers2.png[image]
 
