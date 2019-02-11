@@ -28,19 +28,11 @@ Open the browser and select your new project *My JBoss Applications*.
 
 Click into *Browse Catalog* button.
 
-In the search text box type `eap cd` and select the `JBoss EAP CD (no https)`. EAP CD is latest EAP 7 version updated more frequently than regular EAP 7.x versions.
+In the search text box type `eap 7` and select the `JBoss EAP 7.0 (no https)`.
 
-Click *Next* button and fill the fields with the following information:
+Click *Next* button.
 
-....
-Add to project: your-project-name
-Name: ks
-Git Repository URL: https://github.com/jboss-developer/jboss-eap-quickstarts.git
-Git Reference: openshift 
-MAVEN_MIRROR_URL: http://nexus.devtools.svc:8081/repository/maven-all-public/
-....
-
-Click on *Next* and *Create* buttons and then *Continue to overview* link.
+Click on *Next* and *Create* buttons and then *Continue to project overview* link.
 
 *Step 3: Build*
 
