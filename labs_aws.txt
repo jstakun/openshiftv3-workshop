@@ -1,4 +1,6 @@
 
+OCP CLI: https://mirror.openshift.com/pub/openshift-v3/clients/3.11.53/
+
 LABS: https://goo.gl/igqrdJ
 
 OCP MASTER & API: https://master.107.21.247.47.nip.io/
