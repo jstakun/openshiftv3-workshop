@@ -1,4 +1,6 @@
 
+OCP CLI: https://mirror.openshift.com/pub/openshift-v3/clients/3.10.34/
+
 LABS: https://goo.gl/igqrdJ
 
 OCP MASTER & API: https://master.bucharest-ec3c.azure.opentlc.com
