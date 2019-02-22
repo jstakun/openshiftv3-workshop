@@ -28,7 +28,7 @@ Open the browser and select your new project *My JBoss Applications*.
 
 Click into *Browse Catalog* button.
 
-In the search text box type `eap 7` and select the `JBoss EAP 7.0 (no https)`.
+In the search text box type `eap 7` and select the `JBoss EAP 7.1 (no https)`. 
 
 Click *Next* button.
 
