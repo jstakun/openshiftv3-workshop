@@ -8,9 +8,9 @@ Lab Exercises Table of Contents
 
 * Lab 0.   link:0_Setting_up_client_tools.adoc[Setting up client tools]
 * Lab 1.   link:1_Create_App_From_a_Docker_Image.adoc[Creating an application from an existing Docker Image using CLI]
-* Lab 2.   link:3_Using_Web_Console.adoc[Using Web Console]
-* Lab 3.1  link:2_Create_App_Using_Docker_Build.adoc[Create an application using Docker Build Strategy using CLI]
-* Lab 3.2  link:6_Scale_up_and_Scale_down_the_application_instances.adoc[Scale Up Scale Down and Idle the application instances]
+* Lab 2.1  link:2_Create_App_Using_Docker_Build.adoc[Create an application using Docker Build Strategy using CLI]
+* Lab 2.2  link:3_Using_Web_Console.adoc[Using Web Console]
+* Lab 3    link:6_Scale_up_and_Scale_down_the_application_instances.adoc[Scale Up Scale Down and Idle the application instances]
 * Lab 4.1  link:4_Creating_an_application_using_JBoss_EAP_builder_image.adoc[Creating an application using JBoss EAP builder image]
 * Lab 4.2  link:8_Using_SSL_In_your_Application.adoc[Using SSL In your Application]
 * Lab 5.   link:https://github.com/jstakun/openshiftv3-ops-workshop/blob/master/managing_users_overview.md[Managing Users Overview]
