@@ -1,5 +1,5 @@
 
-OCP CLI: https://mirror.openshift.com/pub/openshift-v3/clients/3.11.53/
+OCP CLI: https://mirror.openshift.com/pub/openshift-v3/clients/3.11.82/
 
 LABS: https://goo.gl/igqrdJ
 
