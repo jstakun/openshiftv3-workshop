@@ -21,10 +21,10 @@ $ oc project mycliproject-userXY
 
 This time we will use a project that has a Dockerfile in a source code
 repository. We will use a simple project on github
-(https://github.com/RedHatWorkshops/time). The `rhel` folder from this github
+(https://github.com/jstakun/time). The `rhel1` folder from this github
 project is built starting with rhel7 as the base image which is
 described in Dockerfile. Look at the Dockerfile for this project. It
-starts off with `registry.access.redhat.com/rhel7` image. It copies the
+starts off with `registry.access.redhat.com/ubi7/ubi` image. It copies the
 source code which is a simple `init.sh` file and exposes port `8080`.
 Look at the `init.sh` that just displays the current datetime. There is
 also a PHP version of the same project available in the php folder if
@@ -43,21 +43,20 @@ Now let’s create an application using this approach. We will run
 `oc new-app` command by supplying the git uri as the parameter.
 
 ....
-$ oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
+$ oc new-app https://github.com/jstakun/time --context-dir=rhel1
 
---> Found Docker image 1d309a6 (6 weeks old) from registry.access.redhat.com for "registry.access.redhat.com/rhel7"
+--> Found Docker image 1d309a6 (6 weeks old) from registry.access.redhat.com for "registry.access.redhat.com/ubi7/ubi"
 
-    * An image stream will be created as "rhel7:latest" that will track the source image
-    * A Docker build using source code from https://github.com/RedHatWorkshops/time will be created
+    * An image stream will be created as "ubi:latest" that will track the source image
+    * A Docker build using source code from https://github.com/jstakun/time will be created
       * The resulting image will be pushed to image stream "time:latest"
-      * Every time "rhel7:latest" changes a new build will be triggered
+      * Every time "ubi:latest" changes a new build will be triggered
     * This image will be deployed in deployment config "time"
     * Port 8080 will be load balanced by service "time"
       * Other containers can access this service through the hostname "time"
-    * WARNING: Image "registry.access.redhat.com/rhel7" runs as the 'root' user which may not be permitted by your cluster administrator
 
 --> Creating resources with label app=time ...
-    imagestream "rhel7" created
+    imagestream "ubi" created
     imagestream "time" created
     buildconfig "time" created
     deploymentconfig "time" created
@@ -126,16 +125,16 @@ $ oc get bc time -o json
         "source": {
             "type": "Git",
             "git": {
-                "uri": "https://github.com/RedHatWorkshops/time"
+                "uri": "https://github.com/jstakun/time"
             },
-            "contextDir": "rhel"
+            "contextDir": "rhel1"
         },
         "strategy": {
             "type": "Docker",
             "dockerStrategy": {
                 "from": {
                     "kind": "ImageStreamTag",
-                    "name": "rhel7:latest"
+                    "name": "ubi:latest"
                 }
             }
         },
