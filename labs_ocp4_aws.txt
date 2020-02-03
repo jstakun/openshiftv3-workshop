@@ -1,0 +1,11 @@
+
+OCP CLI: https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.3.0/
+
+LABS: https://goo.gl/igqrdJ
+
+OCP WEB CONSOLE: https://console-openshift-console.apps.cee.jstocp.net
+
+OCP API: https://api.cee.jstocp.net:6443
+
+ROUTE DOMAIN SUFFIX: apps.cee.jstocp.net
+
